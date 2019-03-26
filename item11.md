@@ -2,7 +2,7 @@
 
 [아이템 10](item10.md)에서 equals 메서드 재정의 규약에 대해서 알아봤다. 주의사항으로 equals 메서드를 재정의하는 경우 ```hashCode``` 메서드도 재정의해야 한다고 했다.
 
-<b>equals를 재정의한 클래스에서는 hashCode도 재정의해야 한다.</b> 이를 어길 경우에 ```HashMap```, ```HashSet```, ```HashTable```와 같은 해시 기반의 컬렉션에서 오동작이 발생한다.
+<b>equals를 재정의한 클래스에서는 hashCode도 재정의해야 한다.</b> 이를 어길 경우에 ```HashMap```, ```HashSet```, ```HashTable``` 와 같은 해시 기반의 컬렉션에서 오동작이 발생한다.
 
 <br/>
 
