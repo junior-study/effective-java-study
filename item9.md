@@ -1,6 +1,6 @@
 # 아이템 9. try-finally보다는 try-with-resources를 사용하라
 
-자바 라이브러리에는 close 메서드를 호출해서 직접 닫아줘야 하는 자원이 많다. ```InputStream```, ```OutputStream```, ```java.sql.Connection``` 등이 있다. 자원을 닫는 것을 잊어버리면 예상치 못한 문제로 이어질 수 있다. [아이템 8](https://jayden-lee.tech/java/effective-java-item8/)에서 살펴봤지만 finalizer, cleaner는 안전망 역할을 할뿐이지 즉시 해제 된다는 것을 보장 받지 못한다.
+자바 라이브러리에는 close 메서드를 호출해서 직접 닫아줘야 하는 자원이 많다. ```InputStream```, ```OutputStream```, ```java.sql.Connection``` 등이 있다. 자원을 닫는 것을 잊어버리면 예상치 못한 문제로 이어질 수 있다. [아이템 8](item8.md)에서 살펴봤지만 finalizer, cleaner는 안전망 역할을 할뿐이지 즉시 해제 된다는 것을 보장 받지 못한다.
 
 ## 1. try-finally
 자바 7 이전에는 ```try-finally```을 통해 자원을 해제하는 로직을 작성했다. finally 블록은 반드시 호출되기 때문에 해당 블록에 자원을 해제하는 작업을 작성했다.
