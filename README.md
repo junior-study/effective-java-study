@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.io/junior-study/effecitve-java-study.svg)](http://hits.dwyl.io/junior-study/effecitve-java-study) ![All Contributors](https://img.shields.io/badge/all_contributors-3-lightgrey.svg?style=flat-square)
+
 # Effective Java Study
 > 스터디에서 `이펙티브 자바 3판` 서적을 학습하고 정리한 내용입니다.
 
@@ -32,7 +34,7 @@
 * [아이템 24. 멤버 클래스는 되도록 static으로 만들라](item24.md)
 * [아이템 25. 톱레벨 클래스는 한 파일에 하나만 담으라](item25.md)
 
-## 4장 클래스와 인터페이스 
+## 4장 클래스와 인터페이스
 
 ## 5장 제네릭
 
